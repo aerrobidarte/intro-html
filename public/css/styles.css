@@ -1,3 +1,13 @@
 header{background-color: #EAC926;
         font-size: 12px;}
 body{font-family: 'Roboto', sans-serif;}
+a{text-decoration: none;
+  color: black;
+  text-align: left;}
+
+.centrar-parrafo{text-align: center;}
+.listas-header{text-decoration: none;}
+.burger-menu{color: blue;
+text-align: center;
+font-size: 30px;
+color: white;}
