@@ -1,6 +1,16 @@
-header{background-color: #EAC926;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{font-family: 'Roboto', sans-serif;
+     background-color: #ebebeb;}
+
+h3{font-size: 24px;}
+
+header {background-color: #EAC926;
         font-size: 12px;}
-body{font-family: 'Roboto', sans-serif;}
+
 a{text-decoration: none;
   color: black;
   text-align: left;}
