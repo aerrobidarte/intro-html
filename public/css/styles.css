@@ -3,20 +3,60 @@
   padding: 0px;
 }
 
-body{font-family: 'Roboto', sans-serif;
-     background-color: #ebebeb;}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+  }
 
-h3{font-size: 24px;}
+h3{
+  font-size: 24px;
+}
 
-header {background-color: #EAC926;
-        font-size: 12px;}
+p{
+  font-size: 12px;
+}
 
-a{text-decoration: none;
+header {
+  background-color: #EAC926;
+  font-size: 12px;
+}
+
+header div.top-header{
+  padding: 5%;
+}
+
+header div.logo{
+  width: 50%;
+  padding: 10px;
+}
+
+header .top-header .form .submit{
+  background-color: #FFF;
+  border: 1px solid #000;
+  color: #666;
+  width: 10%;
+}
+
+header div.top-header p{
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header nav{
+  font-size: 12px;
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li a{
+  text-decoration: none;
   color: black;
-  text-align: left;}
+}
 
-.centrar-parrafo{text-align: center;}
-.listas-header{text-decoration: none;}
+
 .burger-menu{color: blue;
 text-align: center;
 font-size: 30px;
