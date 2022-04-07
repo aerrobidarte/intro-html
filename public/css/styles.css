@@ -56,8 +56,57 @@ header nav ul li a{
   color: black;
 }
 
+header div.burger-menu{
+  text-align: center;
+}
 
-.burger-menu{color: blue;
-text-align: center;
-font-size: 30px;
-color: white;}
+header div.burger-menu i{
+  background-color: #0044aa;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+}
+
+article div.main-article{
+  width: 100%;
+}
+
+.main-article .price{
+  font-size: 18px;
+}
+
+.discount, .description{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3, .description{
+  color:#666;
+}
+
+section.banner img{
+  width: 100%;
+}
+
+main{
+  width: 90%;
+}
+
+main section article img{
+  width: 100%;
+}
+
+main section article{
+  background-color: #FFF;
+}
+
+main section article i, .discount{
+  color: #39b54a;
+}
+
+
+
