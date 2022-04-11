@@ -108,5 +108,22 @@ main section article i, .discount{
   color: #39b54a;
 }
 
+footer section{
+  text-align: center;
+}
+
+footer section div{
+  margin: 40px;
+}
+
+footer section .derecho-autor p{
+  text-align: left;
+}
+
+footer section div i{
+  color:#0044AA;
+  font-size: 30px;
+}
+
 
 
