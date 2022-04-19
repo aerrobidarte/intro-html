@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+  
+   header div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 5%;
+  }
+  
+  header div.logo{
+    width: 50%;
+    padding: 10px;
+  }
+  header div.form{
+    width: 50%;
+  }
+  
+  header div.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    font-size: 11px;
+  }
+  
+  header .top-header .form i{
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  header div.top-header p{
+    width: 100%; 
+    text-align: center;
+    margin-top: 10px;
+  }
+   
+  body{
+      font-family: 'Roboto', sans-serif;
+      background-color: #ebebeb;
+    }
+  
+  h3{
+    font-size: 24px;
+  }
+  
+  p{
+    font-size: 12px;
+  }
+  
+  header {
+    background-color: #EAC926;
+    font-size: 12px;
+  }
+  
+  nav{
+    display: none;
+  }
+  
+  header nav ul{
+    list-style-type: none;
+  }
+  
+  header nav ul li a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  header div.burger-menu{
+    text-align: center;
+  }
+  
+  header div.burger-menu i{
+    background-color: #0044aa;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+  }
+  
+  section.banner img{
+    width: 100%;
+  }
+  
+  main{
+    width: 90%;
+    margin: auto;
+  }
+
+  main section form{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* align-items: center; */
+  }
+
+  main section form p{
+      margin: 5px;
+  }
+  
+  main section form input{
+      padding: 2px;
+      border: solid 1px gray;
+      border-radius: 3px;
+  }
+
+  main section form .perf-us, .cat-int, .fot-us, .fecha-nac {
+      font-size: 14px;
+      font-weight: bold;
+  }
+  
+  footer section{
+    text-align: center;
+  }
+  
+  footer section div{
+    margin: 40px;
+  }
+  
+  footer section .derecho-autor p{
+    text-align: left;
+  }
+  
+  footer section div i{
+    color:#0044AA;
+    font-size: 30px;
+  }
+  
+  /* div.last-visit,
+  div.offers{
+      display: flex;
+      flex-wrap: wrap;
+  } */
+  
+  @media(min-width:361px){
+    header div.top-header{
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+  
+    header nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    header nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    header nav ul li{
+      margin: 10px;
+    }
+  
+    header div.burger-menu i{
+      display: none;
+    } 
+  }
+  
+  @media(min-width:769px){
+
+  }
+  
