@@ -185,6 +185,7 @@ main section article i{
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: all 500ms;
  }
 
 main section h3{
@@ -233,13 +234,27 @@ div.offers{
     width: 45%;
   }
 
-  main section article .description{
-    display: block;
+  main section article:hover i{
+    transform: rotate(-90deg);
   }
 
-  main section article {
-    box-shadow: 0px 0px 10px rgb(100,100,100);
+
+  main section article .description{
+    display:block;
+    opacity: 0;
   }
+
+  main section article:hover h4{
+    opacity: 1;
+  }
+
+  main section article:hover {
+    box-shadow: 0px 0px 15px rgb(100,100,100);
+  }
+
+  /* main section article:hover i{
+    transform: rotate(-90deg);
+  } */
 
   header nav {
     display: flex;
@@ -266,6 +281,11 @@ div.offers{
 @media(min-width:769px){
   main section article {
     width: 22%;
+  }
+  footer .pie-pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 

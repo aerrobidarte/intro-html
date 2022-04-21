@@ -122,11 +122,16 @@
   main section form button{
       padding: 5px;
       width: 100%;
-      font-size: 14px;
-      color: white;
-      background-color:#0044aa;
+      font-size: 16px;
+      /* color: white; */
+      /* background-color:#0044aa; */
       border-radius: 3px;
   }
+
+  main section form button:hover{
+    color: white;
+    background-color:#0022AA;
+    }
   
   footer section{
     text-align: center;
