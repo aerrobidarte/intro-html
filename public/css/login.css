@@ -113,15 +113,16 @@
   
   main section form input{
       width: 100%;
-      padding: 2px;
+      padding: 5px;
       border: solid 1px gray;
       border-radius: 3px;
-      font-size: 16px;
+      font-size: 12px;
   }
 
   main section form button{
+      padding: 5px;
       width: 100%;
-      font-size: 16px;
+      font-size: 14px;
       color: white;
       background-color:#0044aa;
       border-radius: 3px;
