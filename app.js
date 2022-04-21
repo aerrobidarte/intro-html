@@ -8,8 +8,14 @@ let puerto=3030;
 //app.use(express.static(publicPath));
 
 app.use('/static',express.static(__dirname + '/public'));
-app.listen(puerto,()=>
-console.log('Servidor corriendo en el puerto: '+ puerto));
+
+/*app.listen(puerto,()=>
+console.log('Servidor corriendo en el puerto: '+ puerto));*/
+
+app.listen(process.env.PORT || puerto,function(){
+    console.log('Servidor corriendo en el puerto: '+puerto);
+});
+
 
 app.get('/',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./views/home.html'));
